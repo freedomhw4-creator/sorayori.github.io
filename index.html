@@ -50,6 +50,9 @@
   .btn{display:inline-block;padding:13px 26px;border-radius:999px;font-weight:700;text-decoration:none;font-size:15px}
   .btn.white{background:#fff;color:var(--brand-dark)}
   .btn.ghost{border:1.5px solid rgba(255,255,255,.7);color:#fff}
+  .btn.solid{background:var(--brand);color:#fff}
+  .btn.off{background:var(--card);color:var(--sub);border:1px dashed var(--line);cursor:default}
+  .test-btns{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
   .btn.disabled{background:rgba(255,255,255,.85);color:var(--brand-dark);cursor:default}
   .soon{font-size:12.5px;opacity:.9}
   .hero-art{display:flex;justify-content:center}
@@ -165,6 +168,7 @@
       <li><a class="l" href="#scenes">利用シーン</a></li>
       <li><a class="l" href="#screens">画面イメージ</a></li>
       <li><a class="l" href="#safety">安心して使うために</a></li>
+      <li><a class="l" href="#test">テスト参加</a></li>
       <li><a class="l" href="#faq">よくある質問</a></li>
     </ul>
   </div>
@@ -371,12 +375,41 @@
       <div class="card"><h3>オフライン通信は、端末どうしで</h3><p>カードの交換は、端末どうしの近距離通信で行います。通信の記録を、サーバーに送ることはありません。</p></div>
       <div class="card"><h3>予定は、端末の中に</h3><p>カレンダーの予定は、基本的に、お使いの端末に保存されます。共有を選んだ予定だけが、カードに含まれます。</p></div>
       <div class="card"><h3>オフライン通信機能は、いつでも停止</h3><p>設定から、オフライン通信機能を、いつでもオフにできます。常駐での待機は、オプションで、初期設定ではオフです。</p></div>
+      <div class="card"><h3>みんなが、気持ちよく使うために</h3><p>公序良俗に反する内容や、いじめ・ハラスメントを想起させる内容など、人を不快にさせる文章を、オフライン通信に載せることは、禁止です。くわしくは、<a href="privacy.html#s10">プライバシーポリシー</a>をご覧ください。</p></div>
       <div class="card"><h3>天気は、気象庁のデータ</h3><p>天気予報は、気象庁が発表したデータを、そのまま整えて表示しています。独自の予報は、行っていません。</p></div>
     </div>
   </div>
 </section>
 
 <!-- FAQ -->
+<!-- テスト参加 -->
+<section id="test">
+  <div class="wrap">
+    <p class="eyebrow">TEST</p>
+    <h2>テスターを、募集しています</h2>
+    <p class="sec-lead">Google Play での公開に向けて、テストにご協力いただける方を、募集しています。近くの方どうしで試していただくほど、アプリが良くなります。</p>
+    <div class="split">
+      <div>
+        <ol class="steps">
+          <li><div><b>テスト参加を、申し込む</b><span>下のボタンから、フォームまたはメールで、Google アカウントのメールアドレスを、お知らせください。</span></div></li>
+          <li><div><b>テストに、参加する</b><span>ご案内するリンクから、テスターとして登録します。</span></div></li>
+          <li><div><b>Google Play から、インストール</b><span>登録後は、Google Play から、通常のアプリと同じように、入れられます。</span></div></li>
+        </ol>
+        <div class="test-btns">
+          <span class="btn off">参加申し込み(準備中)</span>
+          <a class="btn solid" href="privacy.html#s1">メールで問い合わせる</a>
+        </div>
+      </div>
+      <div class="points">
+        <div><b>必要なもの</b><br>Android 7.0 以降の端末と、Google アカウントです。</div>
+        <div><b>期間の目安</b><br>約2週間、アプリをお手元に入れておいてください。</div>
+        <div><b>ご意見の送り先</b><br>不具合や、使いにくい点は、お問い合わせから、お知らせください。</div>
+        <div><b>APK での配布について</b><br>Google Play 以外からのインストールは、現在、行っていません。</div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section id="faq">
   <div class="wrap" style="max-width:780px">
     <p class="eyebrow">FAQ</p>
@@ -386,6 +419,7 @@
     <details><summary>天気予報は、どこから取得していますか？</summary><p>気象庁が発表した予報のデータを、ソラヨリが整えて表示しています。出典の表示は、アプリの画面にもあります。</p></details>
     <details><summary>相手に、位置や個人情報は、伝わりますか？</summary><p>伝わるのは、設定したニックネーム、ひとこと、共有を選んだ予定など、アプリで設定した範囲です。位置の情報を、相手に伝える機能は、ありません。</p></details>
     <details><summary>オフライン通信が、反応しないときは？</summary><p>Bluetooth・Wi-Fi・通知の許可がオンか、「オフライン通信待機」が、オンかを、確認してください。相手も、同じアプリで、待機している必要があります。</p></details>
+    <details><summary>不快なカードが、届いたときは？</summary><p>カードを開いて、「ブロック」か「削除」を選んでください。ブロックすると、以後、その相手のカードは、受け取りません。禁止事項は、<a href="privacy.html#s10">プライバシーポリシー</a>に、まとめています。</p></details>
     <details><summary>いつ、公開されますか？</summary><p>Google Play での公開に向けて、準備中です。公開が決まりしだい、このページでお知らせします。</p></details>
   </div>
 </section>
